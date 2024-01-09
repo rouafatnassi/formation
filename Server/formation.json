@@ -1,0 +1,193 @@
+{
+  "administrateurs": [
+    {
+      "IDAdmin": 1,
+      "Nom": "Admin",
+      "Prenom": "Super",
+      "Email": "admin@email.com",
+      "MotDePasse": "admin123"
+    }
+  ],
+  "formateurs": [
+    {
+      "IDFormateur": 1,
+      "Nom": "Dupont",
+      "Prenom": "Jean",
+      "Email": "jean@email.com",
+      "Telephone": "+123456789",
+      "NumeroCarteIdentite": "1234567890",
+      "MotDePasse": "password123",
+      "specialites": [
+        "Informatique",
+        "Mathematiques"
+      ]
+    },
+    {
+      "IDFormateur": 2,
+      "Nom": "Martin",
+      "Prenom": "Marie",
+      "Email": "marie@email.com",
+      "Telephone": "+987654321",
+      "NumeroCarteIdentite": "0987654321",
+      "MotDePasse": "secret456",
+      "specialites": [
+        "Langues"
+      ]
+    }
+  ],
+  "formations": [
+    {
+      "id": 1,
+      "Titre": "Formation A",
+      "Description": "Description de A",
+      "Image": "https://img-c.udemycdn.com/course/750x422/1572898_a931_3.jpg",
+      "ChargeHoraires": 30,
+      "Programme": "Programme de A",
+      "NiveauDifficulte": "Debutant",
+      "categories": [
+        "Informatique",
+        "Mathematiques"
+      ],
+      "IDAdmin": 1
+    },
+    {
+      "id": 2,
+      "Titre": "Formation B",
+      "Description": "Description de B",
+      "Image": "https://img-c.udemycdn.com/course/750x422/1572898_a931_3.jpg",
+      "ChargeHoraires": 45,
+      "Programme": "Programme de B",
+      "NiveauDifficulte": "Avance",
+      "categories": [
+        "Langues"
+      ],
+      "IDAdmin": 1
+    },
+    {
+      "id": 3,
+      "Titre": "Formation B",
+      "Description": "Description de B",
+      "Image": "https://img-c.udemycdn.com/course/750x422/1572898_a931_3.jpg",
+      "ChargeHoraires": 45,
+      "Programme": "Programme de B",
+      "NiveauDifficulte": "Avance",
+      "categories": [
+        "Langues"
+      ],
+      "IDAdmin": 1
+    },
+    {
+      "Titre": "tt",
+      "Description": "d",
+      "Image": "https://img-c.udemycdn.com/course/750x422/1572898_a931_3.jpg",
+      "ChargeHoraires": 0,
+      "Programme": "r",
+      "NiveauDifficulte": "e",
+      "categories": [
+        "e"
+      ],
+      "IDAdmin": 0,
+      "id": 4
+    },
+    {
+      "Titre": "tt",
+      "Description": "eee",
+      "Image": "https://img-c.udemycdn.com/course/750x422/1572898_a931_3.jpg",
+      "ChargeHoraires": 0,
+      "Programme": "e",
+      "NiveauDifficulte": "e",
+      "categories": [
+        "e"
+      ],
+      "IDAdmin": 1,
+      "id": 5
+    },
+    {
+      "Titre": "tt",
+      "Description": "d",
+      "Image": "https://img-c.udemycdn.com/course/750x422/1572898_a931_3.jpg",
+
+      "ChargeHoraires": 0,
+      "Programme": "e",
+      "NiveauDifficulte": "e",
+      "categories": [
+        "e"
+      ],
+      "IDAdmin": 1,
+      "id": 6
+    },
+    {
+      "Titre": "ee",
+      "Description": "a",
+      "Image": "https://img-c.udemycdn.com/course/750x422/1572898_a931_3.jpg",
+
+      "ChargeHoraires": 0,
+      "Programme": "r",
+      "NiveauDifficulte": "r",
+      "categories": [
+        "z"
+      ],
+      "IDAdmin": 1,
+      "id": 7
+    },
+    {
+      "Titre": "tt",
+      "Description": "g",
+      "Image": "https://img-c.udemycdn.com/course/750x422/1572898_a931_3.jpg",
+      "ChargeHoraires": 0,
+      "Programme": "r",
+      "NiveauDifficulte": "e",
+      "categories": [
+        "f"
+      ],
+      "IDAdmin": 1,
+      "id": 8
+    }
+  ],
+  "candidats": [
+    {
+      "IDCandidat": 1,
+      "Nom": "Durand",
+      "Prenom": "Pierre",
+      "Email": "pierre@email.com",
+      "NumeroCarteIdentite": "0987654321",
+      "MotDePasse": "pass123"
+    },
+    {
+      "IDCandidat": 2,
+      "Nom": "Leroux",
+      "Prenom": "Sophie",
+      "Email": "sophie@email.com",
+      "NumeroCarteIdentite": "1234567890",
+      "MotDePasse": "secret789"
+    }
+  ],
+  "sessionsFormations": [
+    {
+      "IDSession": 1,
+      "id": 1,
+      "DateDebut": "2024-01-15",
+      "DateFin": "2024-02-15",
+      "formateurs": [
+        1,
+        2
+      ],
+      "candidats": [
+        1,
+        2
+      ]
+    },
+    {
+      "IDSession": 2,
+      "IDFormation": 2,
+      "DateDebut": "2024-03-01",
+      "DateFin": "2024-04-15",
+      "formateurs": [
+        1
+      ],
+      "candidats": [
+        1
+      ]
+    }
+  ]
+}

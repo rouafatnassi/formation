@@ -1,0 +1,26 @@
+{
+  "clients": [
+    {
+      "id": 1,
+    "nom": "Mohamed Tounsi",
+      "email": "mohamed.tounsi@gmail.com",
+      "password": "mod123",
+      "tel": "24556678"
+    },
+    {
+      "id": 2,
+      "nom": "Maha Ben Azzouz",
+      "email": "maha.benazzouz@gmail.com",
+      "password": "mahaaa123",
+      "tel": "12345678"
+    }
+  ],
+  "products": [],
+  "users": [
+    {
+      "email": "test@test.com",
+      "password": "$2a$10$hI.kCQPq.GbrxlKZTHbSeuWUVeYLe2Ji88xoGrik6RcRvLrJxS58W",
+      "id": 1
+    }
+  ]
+}

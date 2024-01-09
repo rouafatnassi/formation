@@ -1,0 +1,23 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Power of habits",
+      "author": "Charles Duhigg",
+      "price": 30
+    },
+    {
+      "id": 2,
+      "title": "Learning Angular",
+      "author": "Pablo Deeleman",
+      "price": 41
+    },
+    {
+      "id": 3,
+      "title": "Atomic Habits",
+      "author": "name",
+      "price": 41
+    }
+  ],
+  "products": []
+}
